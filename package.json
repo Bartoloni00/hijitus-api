@@ -1,0 +1,33 @@
+{
+  "name": "hijitus-api",
+  "version": "1.0.0",
+  "description": "Api de los personajes de la serie argentina Hijitus",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bartoloni00/hijitus-api.git"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "mongodb",
+    "hijitus",
+    "api",
+    "backend",
+    "javascript"
+  ],
+  "author": "jonathan abraham bartoloni",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Bartoloni00/hijitus-api/issues"
+  },
+  "homepage": "https://github.com/Bartoloni00/hijitus-api#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2"
+  }
+}
