@@ -3,13 +3,32 @@ import { getJson } from "../services/JSONReader.js";
 export default class CharactersModel
 {
     // static async getCharacters({filters})
-    static async getCharacters()
+    static async getAll()
     {
         const characters = await getJson('./db/characters.json')
 
         if(characters.length < 1) throw new Error('Characters not found')
-        console.log('paso el if del modelo');
         
         return characters
+    }
+
+    static async getById(id)
+    {
+        const characters = await this.getAll()
+
+        for (let i = 0; i < characters.length; i++) {
+            if (characters[i].id == id) return characters[i]
+        }
+
+        throw new Error('Characters not found')
+    }
+
+    static async getRandom()
+    {
+        const characters = await this.getAll()
+        const randomId = Math.floor(Math.random() * (characters.length - 1) + 1)
+
+        console.log(randomId);
+        return this.getById(randomId)
     }
 }

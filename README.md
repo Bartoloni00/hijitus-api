@@ -38,12 +38,38 @@ npm run dev
 
 # Uso de la API
 
-Para obtener todos los personajes de la serie de Hijitus, realiza una llamada **GET** a la siguiente URL:
+##  Obtener todos los personajes de la serie de Hijitus.
+
+Realiza una peticion por **GET** a la siguiente URL:
 
 ```bash
 http://localhost:3333/characters
 ```
-## Filtros
+
+### Filtros
+
+Proximamente.
+
+## obtener un personaje en concreto de la serie.
+
+Realiza una peticion por **GET** a la siguiente URL:
+
+```bash
+http://localhost:3333/characters/{numeroId}
+```
+
+> [!NOTE]  
+> Los id de los personajes actualmente van del 1 al 28.
+
+### Filtros
+
+## obtener un personaje aleatorio de la serie.
+
+Realiza una peticion por **GET** a la siguiente URL:
+
+```bash
+http://localhost:3333/characters/random
+```
 
 # Contribuciones
 

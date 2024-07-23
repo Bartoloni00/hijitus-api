@@ -3,6 +3,8 @@ import CharactersController from '../controllers/Characters.js'
 
 const CharactersRoutes = express.Router()
 
-CharactersRoutes.get('/characters',CharactersController.getAll)
+CharactersRoutes.get('/characters',CharactersController.getAllCharacters)
+CharactersRoutes.get('/characters/random',CharactersController.getRandomCharacter)
+CharactersRoutes.get('/characters/:id',CharactersController.getCharacter)
 
 export default CharactersRoutes

@@ -1,5 +1,6 @@
 [
     {        
+        "id":1,    
         "name": "Hijitus",
         "description": "Hijitus es un niño pobre que vive en la calle, dentro de un caño sanitario, con su perro Pichichus. Tiene una pandilla de amigos, integrada por Oaky, el propio Pichichus y Larguirucho. Se caracteriza por su sentido de la amistad, la justicia y la solidaridad y por vestir siempre con un sombrero o galera azul desfondado. Hijitus puede convertirse en Super Hijitus.",
         "category": "Protagonista",
@@ -9,6 +10,7 @@
         "image": "URL_de_imagen_hijitus"
     },
     {
+        "id":2,
         "name": "Súper Hijitus",
         "description": "Es la forma transformada de Hijitus, cuando pasa a través del sombrero y diciendo: «Sombrero, sombreritus, ¡conviérteme en Super Hijitus!». Super Hijitus es indestructible y puede volar, enfrentándose con el villano de la serie, el Profesor Neurus. Su expresión preferida es «Ojalita, ojalata, chuculita, chuculata; fufú... y chucu, chucu, chucu, chucu».",
         "category": "Protagonista",
@@ -18,6 +20,7 @@
         "image": "URL_de_imagen_super_hijitus"
     },
     {        
+        "id":3,    
         "name": "Pichichus",
         "description": "Es el perro y amigo de Hijitus. También puede convertirse en Super Pichichus si pasa por el sombrero de aquel. Es adoptado por Hijitus en la aventura llamada «Un ovni en Trulalá», Hijitus lo defiende de unos perros vagabundos salvajes, convirtiéndose así en la mascota de Hijitus, y su fiel compañero de aventuras. No habla, pero la mayoría de los personajes de la serie comprende sus ladridos.",
         "category": "Protagonista",
@@ -27,6 +30,7 @@
         "image": "URL_de_imagen_pichichus"
     },
     {
+        "id":4,
         "name": "Oaky",
         "description": "Es hijo del hombre más rico y poderoso de Trulalá, Gold Silver. Es un bebé, y es el principal amigo de Hijitus. Usa pañales y dos pistolas. Su lema favorito es «Tiro, lío y cosha golda». Es un niño muy malcriado y consentido, lo cual, en más de una ocasión, le llevó a aliarse con Neurus. A pesar de esta tendencia antagónica, Oaky es un niño de buen corazón en el fondo, y muy valiente para su corta edad.",
         "category": "Protagonista",
@@ -36,6 +40,7 @@
         "image": "URL_de_imagen_oaky"
     },
     {        
+        "id":5,    
         "name": "Anteojito",
         "description": " Es un niño de unos 8 años, que lleva grandes anteojos, (de donde viene su nombre), alegre y positivo, que vive con su tío Antifaz.",
         "category": "Protagonista",
@@ -45,6 +50,7 @@
         "image": "URL_de_imagen_anteojito"
     },
     {        
+        "id":6,    
         "name": "Larguirucho",
         "description": "Es amigo de Hijitus e integra su pandilla, pero también participa en los planes del malvado Profesor Neurus, aparentemente sin tener plena conciencia de la maldad de sus actos. Larguirucho se destaca por ser un buen amigo de buenos sentimientos, pero poca inteligencia para distinguir el bien del mal. Su frase favorita cuando lo llaman es responder a su interlocutor con «Blá má fuete, que no te ecucho». Es simpatizante de Boca Juniors.",
         "category": "Protagonista",
@@ -54,6 +60,7 @@
         "image": "URL_de_imagen_larguirucho"
     },
     {        
+        "id":7,    
         "name": "Profesor Neurus",
         "description": "Es el principal villano de la serie. Se trata de un científico loco, cuyo objetivo es tomar el poder en Trulalá. Cuenta para ello con sus invenciones y una pandilla integrada por Pucho y Serrucho, a la que eventualmente se suma.",
         "category": "Antagonista",
@@ -63,6 +70,7 @@
         "image": "URL_de_imagen_neurus"
     },
     {        
+        "id":8,    
         "name": "La Marañaza",
         "description": "Un autómata monstruoso creado por el Profesor Neurus para aterrorizar a la población de Trulalá, y obtener así la fortuna del millonario Gold Silver.",
         "category": "Antagonista",
@@ -72,6 +80,7 @@
         "image": "URL_de_imagen_neurus"
     },
     {        
+        "id":9,    
         "name": "Gold Silver",
         "description": "Padre de Oaky. Millonario de origen inglés o estadounidense, es el hombre más rico de Trulalá, de buen corazón aunque algo ingenuo. Su frase favorita es «Oaky, hijo mío».",
         "category": "Secundario",
@@ -81,6 +90,7 @@
         "image": "URL_de_imagen_gold_silver"
     },
     {        
+        "id":10,    
         "name": "Pucho",
         "description": "Es un ayudante del Profesor Neurus. Es un personaje flaco y alto que siempre está fumando un cigarrillo. Es cobarde y suele meterse en problemas.",
         "category": "Antagonista",
@@ -90,6 +100,7 @@
         "image": "URL_de_imagen_pucho"
     },
     {        
+        "id":11,    
         "name": "Serrucho",
         "description": "Es un secuaz a las órdenes del Profesor Neurus. No habla y se limita a hacer un ruido de serrucho, frotando el canto de su mano contra sus grandes dientes.",
         "category": "Antagonista",
@@ -99,6 +110,7 @@
         "image": "URL_de_imagen_serrucho"
     },
     {
+        "id":12,
         "name": "Raimundo",
         "description": "El huérfano más travieso del orfanato de Trulalá, es un niño problemático y maleducado, el cual termina siendo adoptado por Larguirucho",
         "category": "Secundario",
@@ -108,6 +120,7 @@
         "image": "URL_de_imagen_raimundo"
     },
     {
+        "id":13,
         "name": "El Boxitracio",
         "description": "Un animal extraño que se creía extinguido, similar a un canguro, con guantes de boxeo, y con tendencia a boxear ante la más mínima amenaza.  Su única forma de expresión era la onomatopeya «Tere quete tere quete ua ua ua».",
         "category": "Episodico",
@@ -117,6 +130,7 @@
         "image": "URL_de_imagen_raimundo"
     },
     {
+        "id":14,
         "name": "Dedo Negro",
         "description": " Delincuente que puede disfrazarse de cualquier persona, pero sin poder ocultar su pulgar negro.",
         "category": "Episodico",
@@ -126,6 +140,7 @@
         "image": "URL_de_imagen_raimundo"
     },
     {
+        "id":15,
         "name": "Los Aguilotros",
         "description": "Pájaros enemigos de los Boxitracios, ya que los dos pensaban que habían conquistado primero la Isla del Sol.",
         "category": "Episodico",
@@ -135,6 +150,7 @@
         "image": "URL_de_imagen_raimundo"
     },
     {
+        "id":16,
         "name": "El Dragón Cantor",
         "description": "Es un dragón que cuando canta expele fuego de su boca, ocasionando caos en Trulalá y se va para la frontera.",
         "category": "Episodico",
@@ -144,6 +160,7 @@
         "image": "URL_de_imagen_raimundo"
     },
     {
+        "id":17,
         "name": "El Pingüino Hippie",
         "description": "Es un pingüino que con sus melodías con la guitarra provocaba grandes destrozos.",
         "category": "Episodico",
@@ -153,6 +170,7 @@
         "image": "URL_de_imagen_raimundo"
     },
     {
+        "id":18,
         "name": "Antifaz",
         "description": "Bondadoso tío de Anteojito el cual, como su nombre lo indica siempre lleva un antifaz sobre su cara.",
         "category": "Secundario",
@@ -162,6 +180,7 @@
         "image": "URL_de_imagen_antifaz"
     },
     {
+        "id":19,
         "name": "Macanation",
         "description": "Es un bondadoso anciano de vastos conocimientos, hincha de San Lorenzo de Almagro, director del museo de Trulalá, que habla con acento inglés o estadounidense. Cada vez que Hijitus tiene una duda, consulta sus enciclopedias.",
         "category": "Secundario",
@@ -171,6 +190,7 @@
         "image": "URL_de_imagen_antifaz"
     },
     {
+        "id":20,
         "name": "El Cabo Lopecito",
         "description": "Asistente y brazo ejecutor de las órdenes del Comisario de Trulalá.",
         "category": "Secundario",
@@ -180,6 +200,7 @@
         "image": "URL_de_imagen_antifaz"
     },
     {
+        "id":21,
         "name": "La vecinita de enfrente",
         "description": "es una pequeña niña que vive frente a la mansión de Oaky, de quien este se encuentra enamorado, sin ser correspondido; es refinada, toca el piano y recibe serenatas por parte de Oaky en su balcón, está enamorada de Hijitus.",
         "category": "Secundario",
@@ -189,6 +210,7 @@
         "image": "URL_de_imagen_antifaz"
     },
     {
+        "id":22,
         "name": "El Comisario de Trulalá",
         "description": "Es la autoridad policial de Trulalá, retratado como un hombre del Litoral argentino, con típico acento correntino. Su frase favorita es «¡Marche preso, desacatáu! ¡Yo te v'iá hacer repimporotear en el calabozo!».",
         "category": "Secundario",
@@ -198,6 +220,7 @@
         "image": "URL_de_imagen_comisario"
     },
     {
+        "id":23,
         "name": "Cachavacha",
         "description": "Actúa sola, con la ayuda de su fiel búho Pajarraco. Vive en el campo, en un rancho de estilo gauchesco al que llama «covacha». Busca permanentemente dañar a los habitantes de Trulalá y vuela en escoba.",
         "category": "Antagonista",
@@ -207,6 +230,7 @@
         "image": "URL_de_imagen_cachavacha"
     },
     {
+        "id":24,
         "name": "Pajarraco",
         "description": "Búho ayudante y mascota de Cachavacha, puede hablar y es frecuentemente vapuleado por la bruja.",
         "category": "Antagonista",
@@ -216,6 +240,7 @@
         "image": "URL_de_imagen_cachavacha"
     },
     {
+        "id":25,
         "name": "El Gran Hampa",
         "description": "Enigmático jefe del Profesor Neurus (aunque finalmente se descubre que no es otro que Serrucho).",
         "category": "Episodico",
@@ -225,6 +250,7 @@
         "image": "URL_de_imagen_granhampa"
     },
     {
+        "id":26,
         "name": "Kechum",
         "description": "Primo rosarino de Pucho que, al enojarse, vibra y provoca terremotos.",
         "category": "Secundario",
@@ -234,6 +260,7 @@
         "image": "URL_de_imagen_kechum"
     },
     {
+        "id":27,
         "name": "Bodega y Rapiño",
         "description": " Son dos delincuentes representados con bombín, muchas veces se asocian al Profesor Neurus.",
         "category": "Secundario",
@@ -243,6 +270,7 @@
         "image": "URL_de_imagen_kechum"
     },
     {
+        "id":28,
         "name": "Truku",
         "description": "Un robot creado por Neurus para robar bancos, derriba paredes y puertas de hierro.",
         "category": "Episodico",
