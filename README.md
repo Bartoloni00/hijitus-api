@@ -1,4 +1,4 @@
-# hijitus-api
+# Hijitus-API
 
 ## Objetivo de la API
 
