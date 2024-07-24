@@ -7,7 +7,7 @@
         "species": "Humano",
         "gender": "Masculino",
         "personality": "Bueno",
-        "image": "URL_de_imagen_hijitus"
+        "image": "/hijitus.webp"
     },
     {
         "id":2,
@@ -17,7 +17,7 @@
         "species": "Humano",
         "gender": "Masculino",
         "personality": "Bueno",
-        "image": "URL_de_imagen_super_hijitus"
+        "image": "/superHijitus.webp"
     },
     {        
         "id":3,    
@@ -27,7 +27,7 @@
         "species": "Perro",
         "gender": "Masculino",
         "personality": "Bueno",
-        "image": "URL_de_imagen_pichichus"
+        "image": "/pichichus.webp"
     },
     {
         "id":4,
@@ -37,7 +37,7 @@
         "species": "Humano",
         "gender": "Masculino",
         "personality": "Bueno",
-        "image": "URL_de_imagen_oaky"
+        "image": "/oaky.webp"
     },
     {        
         "id":5,    
@@ -47,7 +47,7 @@
         "species": "Humano",
         "gender": "Masculino",
         "personality": "Bueno",
-        "image": "URL_de_imagen_anteojito"
+        "image": "/anteojito.webp"
     },
     {        
         "id":6,    
@@ -57,7 +57,7 @@
         "species": "Humano",
         "gender": "Masculino",
         "personality": "Bueno",
-        "image": "URL_de_imagen_larguirucho"
+        "image": "/Larguirucho.webp"
     },
     {        
         "id":7,    
@@ -67,7 +67,7 @@
         "species": "Humano",
         "gender": "Masculino",
         "personality": "Malo",
-        "image": "URL_de_imagen_neurus"
+        "image": "/ProfesorNeurus.webp"
     },
     {        
         "id":8,    
@@ -77,7 +77,7 @@
         "species": "Mounstruo",
         "gender": "Masculino",
         "personality": "Malo",
-        "image": "URL_de_imagen_neurus"
+        "image": "/lamaranaza.webp"
     },
     {        
         "id":9,    
@@ -87,7 +87,7 @@
         "species": "Humano",
         "gender": "Masculino",
         "personality": "Bueno",
-        "image": "URL_de_imagen_gold_silver"
+        "image": "/GoldSilver.webp"
     },
     {        
         "id":10,    
@@ -97,7 +97,7 @@
         "species": "Humano",
         "gender": "Masculino",
         "personality": "Malo",
-        "image": "URL_de_imagen_pucho"
+        "image": "/Pucho.webp"
     },
     {        
         "id":11,    
@@ -107,7 +107,7 @@
         "species": "Humano",
         "gender": "Masculino",
         "personality": "Malo",
-        "image": "URL_de_imagen_serrucho"
+        "image": "/Serrucho.webp"
     },
     {
         "id":12,
@@ -117,7 +117,7 @@
         "species": "Humano",
         "gender": "Masculino",
         "personality": "Neutral",
-        "image": "URL_de_imagen_raimundo"
+        "image": "/Raimundo.webp"
     },
     {
         "id":13,
@@ -127,7 +127,7 @@
         "species": "Canguro extinguido",
         "gender": "Masculino",
         "personality": "Neutral",
-        "image": "URL_de_imagen_raimundo"
+        "image": "/boxitracio.webp"
     },
     {
         "id":14,
@@ -137,7 +137,7 @@
         "species": "Humano",
         "gender": "Masculino",
         "personality": "Malo",
-        "image": "URL_de_imagen_raimundo"
+        "image": "/dedonegro.webp"
     },
     {
         "id":15,
@@ -147,7 +147,7 @@
         "species": "Humano",
         "gender": "Masculino",
         "personality": "Malo",
-        "image": "URL_de_imagen_raimundo"
+        "image": "/Aguilotros.webp"
     },
     {
         "id":16,
@@ -157,7 +157,7 @@
         "species": "Dragon",
         "gender": "Masculino",
         "personality": "Neutral",
-        "image": "URL_de_imagen_raimundo"
+        "image": "/ElDragonCantor.webp"
     },
     {
         "id":17,
@@ -167,7 +167,7 @@
         "species": "Pingüino",
         "gender": "Masculino",
         "personality": "Neutral",
-        "image": "URL_de_imagen_raimundo"
+        "image": "/pinguinoHippie.webp"
     },
     {
         "id":18,
@@ -177,7 +177,7 @@
         "species": "Humano",
         "gender": "Masculino",
         "personality": "Bueno",
-        "image": "URL_de_imagen_antifaz"
+        "image": "/Antifaz.webp"
     },
     {
         "id":19,
@@ -187,7 +187,7 @@
         "species": "Humano",
         "gender": "Masculino",
         "personality": "Bueno",
-        "image": "URL_de_imagen_antifaz"
+        "image": "/noImage.webp"
     },
     {
         "id":20,
@@ -197,7 +197,7 @@
         "species": "Humano",
         "gender": "Masculino",
         "personality": "Bueno",
-        "image": "URL_de_imagen_antifaz"
+        "image": "/noImage.webp"
     },
     {
         "id":21,
@@ -207,7 +207,7 @@
         "species": "Humano",
         "gender": "Femenino",
         "personality": "Bueno",
-        "image": "URL_de_imagen_antifaz"
+        "image": "/noImage.webp"
     },
     {
         "id":22,
@@ -217,7 +217,7 @@
         "species": "Humano",
         "gender": "Masculino",
         "personality": "Bueno",
-        "image": "URL_de_imagen_comisario"
+        "image": "/ElComisario.webp"
     },
     {
         "id":23,
@@ -227,7 +227,7 @@
         "species": "Humano",
         "gender": "Femenino",
         "personality": "Mala",
-        "image": "URL_de_imagen_cachavacha"
+        "image": "/Cachavacha.webp"
     },
     {
         "id":24,
@@ -237,7 +237,7 @@
         "species": "Búho",
         "gender": "Masculino",
         "personality": "Mala",
-        "image": "URL_de_imagen_cachavacha"
+        "image": "/noImage.webp"
     },
     {
         "id":25,
@@ -247,7 +247,7 @@
         "species": "Humano",
         "gender": "Masculino",
         "personality": "Malo",
-        "image": "URL_de_imagen_granhampa"
+        "image": "/Granhampa.webp"
     },
     {
         "id":26,
@@ -257,7 +257,7 @@
         "species": "Humano",
         "gender": "Masculino",
         "personality": "Bueno",
-        "image": "URL_de_imagen_kechum"
+        "image": "/Kechum.webp"
     },
     {
         "id":27,
@@ -267,7 +267,7 @@
         "species": "Humano",
         "gender": "Masculino",
         "personality": "Bueno",
-        "image": "URL_de_imagen_kechum"
+        "image": "/noImage.webp"
     },
     {
         "id":28,
@@ -277,6 +277,6 @@
         "species": "Robot",
         "gender": "N/A",
         "personality": "Bueno",
-        "image": "URL_de_imagen_trucu"
+        "image": "/truku.webp"
     }
 ]
