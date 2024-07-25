@@ -5,7 +5,8 @@ export default class CharactersController
 {
     static async getAllCharacters(req, res)
     {
-        CharactersModel.getAll()
+        const filters = req.query
+        CharactersModel.getAll(filters)
         .then(characters => res.status(200).json(Result.success(characters)))
         .catch(error => res.status(404).json(Result.failure(error.message)))
     }

@@ -1,13 +1,17 @@
+import { filterForCategory, filterForSpecies } from "../services/charactersFilters.js";
 import { getJson } from "../services/JSONReader.js";
 
 export default class CharactersModel
 {
     // static async getCharacters({filters})
-    static async getAll()
+    static async getAll(filters)
     {
-        const characters = await getJson('./db/characters.json')
+        let characters = await getJson('./db/characters.json')
 
         if(characters.length < 1) throw new Error('Characters not found')
+
+        characters = filterForCategory(filters.category, characters)
+        characters = filterForSpecies(filters.species, characters)
         
         return characters
     }

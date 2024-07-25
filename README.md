@@ -48,7 +48,15 @@ http://localhost:3333/characters
 
 ### Filtros
 
-Proximamente.
+- Filtrar por categoria:
+``` bash
+http://localhost:3333/characters?category=secundario
+```
+
+- Filtrar por especie:
+``` bash
+http://localhost:3333/characters?species=robot
+```
 
 ## obtener un personaje en concreto de la serie.
 
