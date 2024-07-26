@@ -1,60 +1,62 @@
 function filterForCategory(category, characters) {
-    if (!category) return characters
+    if (!category) return characters;
 
-    let charactersFiltrades = []
+    let charactersFiltrados = [];
     characters.forEach(c => {
-        if (category.toLowerCase() == c.category.toLowerCase()) charactersFiltrades.push(c)
-    })
-    return charactersFiltrades
+        if (category.toLowerCase() === c.category.toLowerCase()) charactersFiltrados.push(c);
+    });
+    return charactersFiltrados;
 }
 
 function filterForSpecies(species, characters) {
-    if (!species) return characters
+    if (!species) return characters;
 
-    let charactersFiltrades = []
+    let charactersFiltrados = [];
     characters.forEach(c => {
-        if (species.toLowerCase() == c.species.toLowerCase()) charactersFiltrades.push(c)
-    })
-    return charactersFiltrades
+        if (species.toLowerCase() === c.species.toLowerCase()) charactersFiltrados.push(c);
+    });
+    return charactersFiltrados;
 }
 
 function filterForGender(gender, characters) {
-    if (!gender)  return characters
+    if (!gender) return characters;
 
-    let charactersFiltrades = []
+    let charactersFiltrados = [];
     characters.forEach(c => {
-        if (gender.toLowerCase() == c.gender.toLowerCase()) charactersFiltrades.push(c)
-    })
-    return charactersFiltrades
+        if (gender.toLowerCase() === c.gender.toLowerCase()) charactersFiltrados.push(c);
+    });
+    return charactersFiltrados;
 }
 
 function filterForPersonality(personality, characters) {
-    if (!personality) return characters
+    if (!personality) return characters;
 
-    let charactersFiltrades = []
+    let charactersFiltrados = [];
     characters.forEach(c => {
-        if (personality.toLowerCase() == c.personality.toLowerCase()) charactersFiltrades.push(c)
-    })
-    return charactersFiltrades
+        if (personality.toLowerCase() === c.personality.toLowerCase()) charactersFiltrados.push(c);
+    });
+    return charactersFiltrados;
 }
 
 function filterForDescription(description, characters) {
-    if (!description) return characters
+    if (!description) return characters;
 
-    let charactersFiltrades = []
+    let charactersFiltrados = [];
     characters.forEach(c => {
-        if (c.description.toLowerCase().includes(description.toLowerCase())) charactersFiltrades.push(c)
-    })
-    return charactersFiltrades ?? characters
+        if (c.description.toLowerCase().includes(description.toLowerCase())) charactersFiltrados.push(c);
+    });
+    return charactersFiltrados;
 }
 
-export default charactersFilters(filters,characters)
-{
-    characters = filterForCategory(filters.category, characters)
-    characters = filterForSpecies(filters.species, characters)
-    characters = filterForGender(filters.gender, characters)
-    characters = filterForPersonality(filters.personality, characters)
-    characters = filterForDescription(filters.description, characters)
+function charactersFilters(filters, characters) {
+    let charactersFiltrados = characters;
+    charactersFiltrados = filterForCategory(filters.category, charactersFiltrados);
+    charactersFiltrados = filterForSpecies(filters.species, charactersFiltrados);
+    charactersFiltrados = filterForGender(filters.gender, charactersFiltrados);
+    charactersFiltrados = filterForPersonality(filters.personality, charactersFiltrados);
+    charactersFiltrados = filterForDescription(filters.description, charactersFiltrados);
 
-    return characters
+    return charactersFiltrados;
 }
+
+export default charactersFilters;
