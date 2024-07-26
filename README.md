@@ -47,15 +47,78 @@ http://localhost:3333/characters
 ```
 
 ### Filtros
+> [!TIP]
+> Los filtros pueden ser concatenados en un mismo query string.
 
-- Filtrar por categoria:
+#### Filtrar por categoria:
 ``` bash
 http://localhost:3333/characters?category=secundario
 ```
+``` bash
+http://localhost:3333/characters?category=protagonista
+```
+``` bash
+http://localhost:3333/characters?category=antagonista
+```
+``` bash
+http://localhost:3333/characters?category=episodico
+```
 
-- Filtrar por especie:
+#### Filtrar por especie:
+
 ``` bash
 http://localhost:3333/characters?species=robot
+```
+``` bash
+http://localhost:3333/characters?species=humano
+```
+``` bash
+http://localhost:3333/characters?species=perro
+```
+``` bash
+http://localhost:3333/characters?species=humano
+```
+``` bash
+http://localhost:3333/characters?species=mounstruo
+```
+``` bash
+http://localhost:3333/characters?species=canguro
+```
+``` bash
+http://localhost:3333/characters?species=pajaro
+```
+``` bash
+http://localhost:3333/characters?species=dragon
+```
+``` bash
+http://localhost:3333/characters?species=Pingüino
+```
+``` bash
+http://localhost:3333/characters?species=Búho
+```
+
+#### Filtrar por personalidad:
+
+``` bash
+http://localhost:3333/characters?personality=neutral
+```
+``` bash
+http://localhost:3333/characters?personality=bueno
+```
+``` bash
+http://localhost:3333/characters?personality=malo
+```
+
+#### Filtrar por genero:
+
+``` bash
+http://localhost:3333/characters?personality=femenino
+```
+``` bash
+http://localhost:3333/characters?personality=masculino
+```
+``` bash
+http://localhost:3333/characters?personality=N/A
 ```
 
 ## obtener un personaje en concreto de la serie.

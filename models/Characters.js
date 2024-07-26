@@ -1,4 +1,4 @@
-import { filterForCategory, filterForSpecies } from "../services/charactersFilters.js";
+import { filterForCategory, filterForGender, filterForPersonality, filterForSpecies } from "../services/charactersFilters.js";
 import { getJson } from "../services/JSONReader.js";
 
 export default class CharactersModel
@@ -12,6 +12,8 @@ export default class CharactersModel
 
         characters = filterForCategory(filters.category, characters)
         characters = filterForSpecies(filters.species, characters)
+        characters = filterForGender(filters.gender, characters)
+        characters = filterForPersonality(filters.personality, characters)
         
         return characters
     }

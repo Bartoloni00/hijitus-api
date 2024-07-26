@@ -124,7 +124,7 @@
         "name": "El Boxitracio",
         "description": "Un animal extraño que se creía extinguido, similar a un canguro, con guantes de boxeo, y con tendencia a boxear ante la más mínima amenaza.  Su única forma de expresión era la onomatopeya «Tere quete tere quete ua ua ua».",
         "category": "Episodico",
-        "species": "Canguro extinguido",
+        "species": "Canguro",
         "gender": "Masculino",
         "personality": "Neutral",
         "image": "/boxitracio.webp"
@@ -144,7 +144,7 @@
         "name": "Los Aguilotros",
         "description": "Pájaros enemigos de los Boxitracios, ya que los dos pensaban que habían conquistado primero la Isla del Sol.",
         "category": "Episodico",
-        "species": "Humano",
+        "species": "Pajaro",
         "gender": "Masculino",
         "personality": "Malo",
         "image": "/Aguilotros.webp"
@@ -226,7 +226,7 @@
         "category": "Antagonista",
         "species": "Humano",
         "gender": "Femenino",
-        "personality": "Mala",
+        "personality": "Malo",
         "image": "/Cachavacha.webp"
     },
     {
@@ -236,7 +236,7 @@
         "category": "Antagonista",
         "species": "Búho",
         "gender": "Masculino",
-        "personality": "Mala",
+        "personality": "Malo",
         "image": "/noImage.webp"
     },
     {
