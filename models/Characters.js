@@ -4,7 +4,7 @@ import { getJson } from "../services/JSONReader.js";
 export default class CharactersModel
 {
     // static async getCharacters({filters})
-    static async getAll(filters)
+    static async getAll(filters = {})
     {
         let characters = await getJson('./db/characters.json')
 
@@ -31,7 +31,6 @@ export default class CharactersModel
         const characters = await this.getAll()
         const randomId = Math.floor(Math.random() * (characters.length - 1) + 1)
 
-        console.log(randomId);
         return this.getById(randomId)
     }
 }
