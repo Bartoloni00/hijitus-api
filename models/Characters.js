@@ -1,4 +1,4 @@
-import { filterForCategory, filterForGender, filterForPersonality, filterForSpecies } from "../services/charactersFilters.js";
+import charactersFilters from "../services/charactersFilters.js";
 import { getJson } from "../services/JSONReader.js";
 
 export default class CharactersModel
@@ -10,10 +10,7 @@ export default class CharactersModel
 
         if(characters.length < 1) throw new Error('Characters not found')
 
-        characters = filterForCategory(filters.category, characters)
-        characters = filterForSpecies(filters.species, characters)
-        characters = filterForGender(filters.gender, characters)
-        characters = filterForPersonality(filters.personality, characters)
+        characters = charactersFilters(filters, characters)
         
         return characters
     }

@@ -121,6 +121,13 @@ http://localhost:3333/characters?personality=masculino
 http://localhost:3333/characters?personality=N/A
 ```
 
+#### Filtrar por descripcion:
+Buscar por cualquier frase o palabra que pueda estar incluida en la descripcion.
+``` bash
+http://localhost:3333/characters?description=amigo%20de%20hijitus
+```
+
+
 ## obtener un personaje en concreto de la serie.
 
 Realiza una peticion por **GET** a la siguiente URL:
