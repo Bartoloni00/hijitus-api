@@ -1,5 +1,5 @@
 export default class Result {
-    constructor(success, data = null, error = null) {
+    constructor(success, data = undefined, error = undefined) {
         this.success = success;
         this.data = data;
         this.error = error;
@@ -10,6 +10,6 @@ export default class Result {
     }
 
     static failure(error) {
-        return new Result(false, null, error);
+        return new Result(false, undefined, error);
     }
 }
