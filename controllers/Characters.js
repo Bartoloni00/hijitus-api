@@ -5,9 +5,10 @@ export default class CharactersController
 {
     static async getAllCharacters(req, res)
     {
-        const filters = req.query
+        const filters = Object.keys(req.query).length ? req.query : {page: '1', items: '10'}
+        
         CharactersModel.getAll(filters)
-        .then(characters => res.status(200).json(Result.success(characters)))
+        .then(({pagination, characters}) => res.status(200).json(Result.success(characters, pagination)))
         .catch(error => res.status(404).json(Result.failure(error.message)))
     }
 

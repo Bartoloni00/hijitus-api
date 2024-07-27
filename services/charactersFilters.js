@@ -1,3 +1,29 @@
+export const countElements = (items) => items.length;
+
+export function pagination(
+    page = 1,
+    itemsPage = 10,
+    items
+) {
+    // Comprobar el numero de items por pagina
+    if (itemsPage < 1 || itemsPage > 10) {
+        itemsPage = 10;
+    }
+    if (page < 1) {
+        page = 1;
+    }
+    const total = countElements(items);
+    const pages = Math.ceil(total / itemsPage);
+    return {
+        page,
+        skip: (page - 1) * itemsPage,
+        to: ((page - 1) * itemsPage) + itemsPage,
+        itemsPage,
+        total,
+        pages
+    };
+}
+
 function filterForCategory(category, characters) {
     if (!category) return characters;
 
@@ -48,13 +74,28 @@ function filterForDescription(description, characters) {
     return charactersFiltrados;
 }
 
+function filterForPagination({ page, items }, characters) {
+    const { skip, to, page: pageSelect, itemsPage, total, pages } = pagination(page, items, characters);
+    return {
+        pagination: {
+            page: pageSelect,
+            itemsPage,
+            total,
+            pages
+        },
+        characters: characters.slice(skip, to)
+    }
+}
+
 function charactersFilters(filters, characters) {
     let charactersFiltrados = characters;
-    charactersFiltrados = filterForCategory(filters.category, charactersFiltrados);
-    charactersFiltrados = filterForSpecies(filters.species, charactersFiltrados);
-    charactersFiltrados = filterForGender(filters.gender, charactersFiltrados);
-    charactersFiltrados = filterForPersonality(filters.personality, charactersFiltrados);
-    charactersFiltrados = filterForDescription(filters.description, charactersFiltrados);
+    const { category, species, gender, personality, description, page, items } = filters;
+    charactersFiltrados = filterForCategory(category, charactersFiltrados);
+    charactersFiltrados = filterForSpecies(species, charactersFiltrados);
+    charactersFiltrados = filterForGender(gender, charactersFiltrados);
+    charactersFiltrados = filterForPersonality(personality, charactersFiltrados);
+    charactersFiltrados = filterForDescription(description, charactersFiltrados);
+    charactersFiltrados = filterForPagination({ page: parseInt(page || '1'), items: parseInt(items || '10') }, charactersFiltrados);
 
     return charactersFiltrados;
 }

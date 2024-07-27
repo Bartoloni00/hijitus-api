@@ -3,21 +3,21 @@ import { getJson } from "../services/JSONReader.js";
 
 export default class CharactersModel
 {
-    // static async getCharacters({filters})
     static async getAll(filters = {})
     {
         let characters = await getJson('./db/characters.json')
 
         if(characters.length < 1) throw new Error('Characters not found')
-
-        characters = charactersFilters(filters, characters)
         
-        return characters
+        // Devolvemos todos para usarlo en la selección por id y por random
+        if (!Object.keys(filters).length) return characters
+        
+        return charactersFilters(filters, characters)
     }
 
     static async getById(id)
     {
-        const characters = await this.getAll()
+        const characters = await this.getAll();
 
         for (let i = 0; i < characters.length; i++) {
             if (characters[i].id == id) return characters[i]
