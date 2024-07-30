@@ -15,6 +15,7 @@ Actualmente, no existe la necesidad de crear una base de datos, y un archivo JSO
 ### Librerías
 
 - **cors**: Para el manejo de los CORS.
+- **nodemon**: dependencia de desarrollo para manejar el reinicio de la api al modificar codigo.
 
 # Instalacion
 
@@ -38,12 +39,30 @@ npm run dev
 
 # Uso de la API
 
+## Ruta raiz de la api
+llamando a la ruta raiz de la api encontraremos este mismo readme el cual incluye toda la documentacion
+
+```bash
+http://localhost:3333
+```
+
 ##  Obtener todos los personajes de la serie de Hijitus.
 
 Realiza una peticion por **GET** a la siguiente URL:
 
 ```bash
 http://localhost:3333/characters
+```
+
+### Paginacion
+Los personajes vienen dividos por paginas actualmente, por defecto vienen 10 personajes en 3 paginas diferentes, de la siguiente manera podras modificar la pagina:
+```bash
+http://localhost:3333/characters?page=2
+```
+
+Y esta es la forma en la que podras modificar la cantidad de personajes que habra por pagina (default = 10)
+```bash
+http://localhost:3333/characters?items=2
 ```
 
 ### Filtros
@@ -126,7 +145,6 @@ Buscar por cualquier frase o palabra que pueda estar incluida en la descripcion.
 ``` bash
 http://localhost:3333/characters?description=amigo%20de%20hijitus
 ```
-
 
 ## obtener un personaje en concreto de la serie.
 
