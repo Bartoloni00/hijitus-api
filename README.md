@@ -2,11 +2,14 @@
 
 ## Objetivo de la API
 
+La idea es que cualquiera pueda contrubuir a este proyecto con lo que considere que podria mejorar la API.
 Dada la gran popularidad entre los desarrolladores front-end de las APIs de "Rick and Morty", "PokeAPI", "Dragon Ball API", etc., pensé que sería divertido tener una versión argentina. Por eso, elegí al primer superhéroe animado argentino para desarrollarla.
 
 ## Lenguaje
 
 Esta API está construida en JavaScript utilizando el entorno de Node.js con su sistema de módulos y el framework Express.js, siguiendo la arquitectura MVC.
+
+- El testing de este backend se realiza utilizando el framework Jest y la libreria supertest
 
 ### Base de datos
 
@@ -131,13 +134,13 @@ http://localhost:3333/characters?personality=malo
 #### Filtrar por genero:
 
 ``` bash
-http://localhost:3333/characters?personality=femenino
+http://localhost:3333/characters?gender=femenino
 ```
 ``` bash
-http://localhost:3333/characters?personality=masculino
+http://localhost:3333/characters?gender=masculino
 ```
 ``` bash
-http://localhost:3333/characters?personality=N/A
+http://localhost:3333/characters?gender=N/A
 ```
 
 #### Filtrar por descripcion:
