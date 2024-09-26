@@ -3,6 +3,7 @@ import request from 'supertest'
 import { verifyCharacterObject } from "./verify.js"
 import {categoryValues, genderValues, personalityValues, speciesValues} from '../services/validValues.js'
 
+
 describe('GET /Characters/random', () => {
     test('should respond with a 200 status code', async () => {
         const response = await request(app).get('/characters/random').send()

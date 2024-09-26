@@ -1,6 +1,6 @@
 import MarkdownReader from "../services/MarkdownReader.js";
 
-export async function index() {
+export async function index(): Promise<string> {
     try {
        return MarkdownReader('README.md')
     } catch (error) {

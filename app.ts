@@ -3,8 +3,8 @@ import cors from 'cors';
 import CharactersRoutes from './routes/Characters.js';
 import IndexController from './controllers/Index.js';
 
-const app = new express()
-const port = 3333
+const app = express()
+const port: number = 3333
 
 app.use(express.urlencoded({ extended : false }))
 app.use('/static', express.static('static'))

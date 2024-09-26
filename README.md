@@ -7,7 +7,7 @@ Dada la gran popularidad entre los desarrolladores front-end de las APIs de "Ric
 
 ## Lenguaje
 
-Esta API está construida en JavaScript utilizando el entorno de Node.js con su sistema de módulos y el framework Express.js, siguiendo la arquitectura MVC.
+Esta API está construida en Typescript utilizando el entorno de Node.js con su sistema de módulos y el framework Express.js, siguiendo la arquitectura MVC.
 
 - El testing de este backend se realiza utilizando el framework Jest y la libreria supertest
 
@@ -35,9 +35,14 @@ cd hijitus-api
 npm install
 ```
 
-4. Inicia el proyecto:
+4. compila el proyecto:
 ``` Bash 
-npm run dev
+npm run build
+```
+
+5. Inicia el proyecto:
+``` Bash 
+npm run start
 ```
 
 # Uso de la API

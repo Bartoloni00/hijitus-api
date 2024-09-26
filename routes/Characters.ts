@@ -1,5 +1,5 @@
 import express from 'express'
-import CharactersController from '../controllers/Characters.js'
+import CharactersController from '../controllers/Characters'
 
 const CharactersRoutes = express.Router()
 

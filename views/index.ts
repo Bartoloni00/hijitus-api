@@ -1,4 +1,4 @@
-export default function indexView(viewContent)
+export default function indexView(viewContent: string): string
 {
     return `
     <main style="max-width:800px; margin: auto;">

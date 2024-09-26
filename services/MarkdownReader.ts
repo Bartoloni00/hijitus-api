@@ -1,7 +1,7 @@
 import { promises as fs } from 'fs'
 import path from 'path'
 
-export default async function MarkdownReader(file)
+export default async function MarkdownReader(file: string): Promise<string>
 {
     const __dirname = path.resolve();
     const filePath = path.join(__dirname, file);
@@ -11,7 +11,7 @@ export default async function MarkdownReader(file)
     return convertMarkdownToHTML(markdown)
 }
 
-function convertMarkdownToHTML(markdown) {
+function convertMarkdownToHTML(markdown: string): string {
     // Conversión básica de Markdown a HTML
     let html = markdown;
 

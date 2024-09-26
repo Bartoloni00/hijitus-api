@@ -1,4 +1,4 @@
-function verifyCharacterObject(character) {
+function verifyCharacterObject(character: Character): void {
     // Verificamos que el personaje tenga todas las propiedades
     expect(character).toHaveProperty('id')
     expect(character).toHaveProperty('name')
@@ -20,7 +20,7 @@ function verifyCharacterObject(character) {
     expect(typeof character.image).toBe('string')
 }
 
-function verifyPaginationObject(pagination) {
+function verifyPaginationObject(pagination: Pagination): void {
     expect(pagination).toBeInstanceOf(Object)// verificamos que sea un objeto
 
     expect(pagination).toHaveProperty('page')

@@ -1,8 +1,7 @@
 import { app } from "../app"
 import request from 'supertest'
-import {categoryValues, genderValues, personalityValues, speciesValues} from '../services/validValues.js'
-import { verifyCharacterObject, verifyPaginationObject } from "./verify.js"
-
+import { verifyCharacterObject, verifyPaginationObject } from "./verify"
+import {categoryValues, genderValues, personalityValues, speciesValues} from '../services/validValues'
 
 describe ('GET /characters', () => {
     test('should respond with a 200 status code', async () => {
@@ -27,7 +26,7 @@ describe ('GET /characters', () => {
         expect(Array.isArray(response.body.data)).toBe(true)
 
         // Verificar la estructura de los elementos dentro del array 'data'
-        response.body.data.forEach(character => {
+        response.body.data.forEach((character: Character) => {
             verifyCharacterObject(character)
 
             // Verificar que ciertas propiedades contengan valores validos
@@ -49,7 +48,7 @@ describe ('GET /characters', () => {
         expect(Array.isArray(response.body.data)).toBe(true)
 
         // Verificar la estructura de los elementos dentro del array 'data'
-        response.body.data.forEach(character => {
+        response.body.data.forEach((character: Character) => {
             verifyCharacterObject(character)
 
             // Verificar que ciertas propiedades contengan valores validos
@@ -66,7 +65,7 @@ describe ('GET /characters', () => {
         verifyPaginationObject(response.body.pagination)
         expect(Array.isArray(response.body.data)).toBe(true)
 
-        response.body.data.forEach(character => {
+        response.body.data.forEach((character: Character) => {
             verifyCharacterObject(character)
 
             // Verificar que ciertas propiedades contengan valores validos
@@ -83,7 +82,7 @@ describe ('GET /characters', () => {
         verifyPaginationObject(response.body.pagination)
         expect(Array.isArray(response.body.data)).toBe(true)
 
-        response.body.data.forEach(character => {
+        response.body.data.forEach((character: Character) => {
             verifyCharacterObject(character)
 
             // Verificar que ciertas propiedades contengan valores validos
@@ -99,7 +98,7 @@ describe ('GET /characters', () => {
         verifyPaginationObject(response.body.pagination)
         expect(Array.isArray(response.body.data)).toBe(true)
 
-        response.body.data.forEach(character => {
+        response.body.data.forEach((character: Character) => {
             verifyCharacterObject(character)
 
             // Verificar que ciertas propiedades contengan valores validos
@@ -115,7 +114,7 @@ describe ('GET /characters', () => {
         verifyPaginationObject(response.body.pagination)
         expect(Array.isArray(response.body.data)).toBe(true)
 
-        response.body.data.forEach(character => {
+        response.body.data.forEach((character: Character) => {
             verifyCharacterObject(character)
 
             // Verificar que ciertas propiedades contengan valores validos
@@ -133,7 +132,7 @@ describe ('GET /characters', () => {
         verifyPaginationObject(response.body.pagination)
         expect(Array.isArray(response.body.data)).toBe(true)
 
-        response.body.data.forEach(character => {
+        response.body.data.forEach((character: Character) => {
             verifyCharacterObject(character)
 
             // Verificar que ciertas propiedades contengan valores validos
